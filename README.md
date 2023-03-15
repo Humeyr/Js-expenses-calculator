@@ -1,6 +1,6 @@
 # Js-expenses-calculator
 
-<h1> HTML, SCSS, JS used </h1>
+<h2> Html, Scss, Js used </h2>
 
 ![](gif.gif)
 
