@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, <input type="text" autofocus placeholder="write your name"/></h1>
+        <form onsubmit="addExpense(event)">
+            <div class="double">
+                <div class="field">
+                    <label>Expense</label>
+                    <input id="expense" type="text">
+                </div>
+                <div class="field">
+                    <label> Price:</label>
+                    <input id="price" type="number">
+
+                </div>
+            </div>
+
+            <div class="double" id="sec-double">
+                <div>
+                    <input id="payment" type="checkbox">
+                    <label for="payment">Paid</label>
+                </div>
+                <button id="addBtn" type="submit">Add</button>
+            </div>
+        </form>
+            <div class="total-box">Total Expenses <span id="total">0 &#x20AC;</span></div>
+            <div class="list">
+                
+            </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
